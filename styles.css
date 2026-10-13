@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  background: #f2f2f2;
+}
+
+section {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 4px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#perfil img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.error {
+  color: red;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+li span {
+  flex: 1;
+}
+
+li input,
+li button {
+  width: auto;
+}
+
+.hecha span {
+  text-decoration: line-through;
+  color: gray;
+}
