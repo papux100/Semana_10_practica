@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 10 Angel Rey Rodriguez</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Login -->
+    <section id="login">
+        <h1>Iniciar sesión</h1>
+        <form id="form-login">
+            <input id="usuario" placeholder="Usuario">
+            <input id="password" type="password" placeholder="Contraseña">
+            <button id="btn-login">Entrar</button>
+            <p id="error" class="error"></p>
+        </form>
+    </section>
+
+    <!-- Panel -->
+    <section id="panel" hidden>
+        <div id="perfil"></div>
+        <button id="btn-salir">Cerrar sesión</button>
+
+        <h2>Mis tareas</h2>
+        <p id="contadores"></p>
+
+        <form id="form-tarea">
+            <input id="nueva" placeholder="Nueva tarea">
+            <button>Agregar</button>
+        </form>
+
+        <select id="filtro">
+            <option value="todas">Todas</option>
+            <option value="pendientes">Pendientes</option>
+            <option value="completadas">Completadas</option>
+        </select>
+        <input id="buscar" placeholder="Buscar...">
+
+        <p id="mensaje" class="error"></p>
+        <ul id="lista"></ul>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
