@@ -15,9 +15,3 @@ Página con HTML, CSS y JavaScript puro que usa la API de [DummyJSON](https://du
 | `sort`   | `pintar()`                       | Ordenar las tareas por nombre. |
 | `map`    | `pintar()`                       | Convertir cada tarea en un `<li>`. |
 | `find`   | `cambiarEstado()` y `eliminarTarea()` | Buscar la tarea por su `id`. |
-
-## Notas
-
-- DummyJSON no guarda cambios, así que después de cada respuesta exitosa se actualiza el arreglo `tareas` y se vuelve a llamar a `pintar()`.
-- Las tareas nuevas reciben un `id` propio (`Date.now()`) y `local: true`; al marcarlas o borrarlas no se llama al servidor.
-- Si `/auth/me` responde 401, se borra el token y se regresa al login.
