@@ -206,7 +206,7 @@ async function eliminarTarea(id) {
   }
 }
 
-// ---------- Eventos ----------
+//Eventos 
 formLogin.addEventListener('submit', iniciarSesion);
 btnSalir.addEventListener('click', cerrarSesion);
 formTarea.addEventListener('submit', agregarTarea);
