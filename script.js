@@ -141,7 +141,7 @@ function pintar() {
   `).join('');
 }
 
-//4. Acciones
+//Acciones
 async function agregarTarea(e) {
   e.preventDefault();
   const texto = nueva.value.trim();
